@@ -22,7 +22,7 @@ Sys.setenv("DATABASECONNECTOR_JAR_FOLDER" = "/home/sween/Desktop/OMOP/iris-omop-
 cd <- DatabaseConnector::createConnectionDetails(dbms = "postgresql",
                                                  server = "extrdp-ops.cebtem2mjzus.us-east-2.rds.amazonaws.com/OMOPCDM54",
                                                  user = "postgres",
-                                                 password = "Testing12x!!!",
+                                                 password = "REDACTED",
                                                  pathToDriver = "/home/sween/Desktop/OMOP/iris-omop-extdb/jars"
                                                  )
 

@@ -6,10 +6,12 @@ install.packages("DatabaseConnector")
 install.packages("SqlRender")
 ```
 
+Here
+
 ```
 CommonDataModel::buildRelease(cdmVersions = "5.4",
                               targetDialects = "postgresql",
-                              outputfolder = "/home/sween/Desktop/OMOP/iris-omop-extdb/ddl/postgres")
+                              outputfolder = "/home/sween/Desktop/OMOP/iris-omop-extdb/ddl/postgres/rds")
 ```
 
 ## Jars

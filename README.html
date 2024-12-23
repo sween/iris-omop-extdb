@@ -358,9 +358,10 @@ display: none;
 <h2>Dependencies</h2>
 <pre><code>install.packages(&quot;DatabaseConnector&quot;)
 install.packages(&quot;SqlRender&quot;)</code></pre>
+<p>Here</p>
 <pre><code>CommonDataModel::buildRelease(cdmVersions = &quot;5.4&quot;,
                               targetDialects = &quot;postgresql&quot;,
-                              outputfolder = &quot;/home/sween/Desktop/OMOP/iris-omop-extdb/ddl/postgres&quot;)</code></pre>
+                              outputfolder = &quot;/home/sween/Desktop/OMOP/iris-omop-extdb/ddl/postgres/rds&quot;)</code></pre>
 </div>
 <div id="jars" class="section level2">
 <h2>Jars</h2>
@@ -371,7 +372,7 @@ install.packages(&quot;SqlRender&quot;)</code></pre>
 <pre><code>cd &lt;- DatabaseConnector::createConnectionDetails(dbms = &quot;postgresql&quot;,
                                                  server = &quot;extrdp-ops.cebtem2mjzus.us-east-2.rds.amazonaws.com/OMOPCDM54&quot;,
                                                  user = &quot;postgres&quot;,
-                                                 password = &quot;Testing12x!!!&quot;,
+                                                 password = &quot;REDACTED&quot;,
                                                  pathToDriver = &quot;/home/sween/Desktop/OMOP/iris-omop-extdb/jars&quot;
                                                  )
 

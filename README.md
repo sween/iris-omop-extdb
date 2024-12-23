@@ -1,5 +1,8 @@
 # OMOP
 
+![My Test Image](assets/h243-odsi-logo-with-text.png)
+
+
 ## Dependencies
 ```
 install.packages("DatabaseConnector")
